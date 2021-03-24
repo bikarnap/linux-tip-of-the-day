@@ -1,0 +1,21 @@
+********** Tip of the day **********
+------------------------------------
+*********** find command ***********
+------------------------------------
+
+The find utility searches for files in a directory hierarchy. It searches the directory tree rooted at each given starting point by evaluating the given expression from left to right. The general syntax is:
+find [starting point] [expression to determine what to find] [options] [what to find]
+if no starting point is specified, the current location will be automatically treated as the starting point. Some of the options used with find are:
+-name: search for file that has the name given after this option
+-print: this option prints the path name of the files found 
+-size -N/-N: this option enables searching files of ‘N’ blocks. This option can be followed by ‘c’ to measure size in characters. +N means size > ‘N’ blocks and -N means size < ‘N’ blocks.
+-user name: search for files owned by the username of Id ‘name’ (for example name can be student)
+-empty: search for files with no contents (empty files)
+-perm: search for files with the given permission
+Examples:
+find ./dir1 -name dare.lst will search for the file dare.lst in the current locations dir1 directory.
+find ~/user/tmp/ -name *.txt will search for all the files with extension .txt in the ~/user/tmp/ directory.
+find -empty will search for all the files in the local directory (current location) that have no contents in them.
+
+This much for this time
+------------------------------------

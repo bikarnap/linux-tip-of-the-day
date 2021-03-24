@@ -1,0 +1,15 @@
+********** Tip of the day **********
+------------------------------------
+*********** sed command ************
+------------------------------------
+sed = stream editor, can be used to edit text files without opening it. It can be used to replace one word with other, delete one or many words, delete one or more lines, etc. It supports regular expression which makes it easier to search for pattern matches to perform edit actions on those patterns. 
+A simple example of sed would be replacing a string with another string as follows:
+echo “hello, world” | sed ‘s/world/Mars/’
+Output will be hello, Mars
+When working with files, it is good to have a backup for the files so that if something goes wrong, there is the backup. To make permanent change in a file using sed, the option -i should be used as shown in the example below:
+sed -i ‘s/ssh/putty/g’ important.txt => this example searches for the word ssh in the file important.txt and replaces all the occurrences with the word putty. The ‘g’ used at the end tells the sed utility to perform global action, i.e., take into consideration all the occurrences. Use of -i option permanently changes the contents of the file. Without the option -i, the output is just shown on the standard output, i.e., terminal window.
+A more advanced example of using sed with regex capture group is shown below. Here the capture groups are surrounded by brackets ( ‘(‘ and ‘)’ ). 
+sed -i 's/\([a-zA-Z]\+\)\s\+\([a-zA-Z]\+\)/\2 \1/' persons.txt => this captures the first word and second word and swaps their order. Suppose persons.txt has an entry of “Rahul Bose”, then this sed command will change the entry to “Bose Rahul”. To use capture groups parentheses should be escaped. The capture groups are labelled internally by numbers, and to access the capture groups they must be escaped. For example, capture group 1 is accessed as \1.
+
+This much for this time
+------------------------------------

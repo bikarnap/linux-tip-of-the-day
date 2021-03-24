@@ -1,0 +1,20 @@
+********** Tip of the day **********
+------------------------------------
+*********** gzip and tar ***********
+------------------------------------
+
+gzip is one of the compression tools that can be used to compress single file. To compress a list of files and/or directories, tar can be used. tar (=tape archive) can be used to create an archive package file, which later can be compressed using compression tool like gzip. 
+For example: 
+1.	compress a file named file0.txt using gzip => gzip file0.txt (output is gile0.txt.gz)
+2.	Archive and compress a list of files (file1.txt, file2.txt, and file3.txt). Use archive name as package.tar
+=> tar -cvf package.tar | gzip --best  
+gzip has options for compression in the range of 1…9. -1 corresponds to the fastest (--fast) and -9 corresponds to the best (--best) compression. -6 is the default compression level. For example, the file0.txt can be compressed with best possible compression using the following:
+gzip --best file0.txt (or gzip -9 file0.txt)
+Useful options for tar are:
+-c = create
+-v = verbose
+-f = file
+-x = extract
+
+This much for this time
+------------------------------------

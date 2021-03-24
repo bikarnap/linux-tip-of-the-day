@@ -1,0 +1,14 @@
+********** Tip of the day **********
+------------------------------------
+********* I/O redirecction *********
+------------------------------------
+
+The normal behavior in the terminal (command-line) window is to send outputs to the scree and receive input from a keyboard. Whenever a command is issued in the command line, three files are always open. They are stdin (for keyboard), stdout (for screen/monitor), and stderr (for error logs). Each of these files have a file descriptor (FD) associated with them. The FDs for stdin, stdout, and stderr are respectively 0, 1, and 2. Use of redirection metacharacters (> and <) can change the default behavior of the input/output.
+For example: 
+1.	To output the result of ls -l command in a file list.txt, the redirection metacharacter ‘>’ can be used as follows:
+ls -l > list.txt (Note: use ‘>>’ to append text; > can also be written as 1>)
+2.	To output an error when trying to open a non-existent file, the following command can be issued:
+cat nofile.txt 2>error.log (2> sends the error to a file, here the file is error.log, and nofile.txt does not exist)
+
+This much for this time
+------------------------------------

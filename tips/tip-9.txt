@@ -1,0 +1,14 @@
+********** Tip of the day **********
+------------------------------------
+************ cut command ***********
+------------------------------------
+
+cut utility is used to remove sections from each line of files. The general syntax of cut is:
+cut OPTION… [FILE]…
+cut utility prints selected parts of lines from each FILE to standard output. In case FILE is not mentioned, the FILE is automatically -, which means read from standard input. Options are not optional (normally options are optional). To use this utility, option(s) must be provided.
+Examples of using cut utility:
+echo “One Two Three” | cut -d” “ -f2 => will print Two. Here, -d is the option for delimiter and it can only be one character long, -f refers to the field in the line of text. When this command is issued, it selects words delimited by a space and prints the second field. Field numbering starts from 1.
+echo -e "1 2 3\n4 5 6" | cut -d" " -f1,2 will print the first and third fields of each of the output lines of echo command. -f1,2 can also be written as –fields=1,2. When a list of fields is provided, it also output any line that contains no delimiter
+
+This much for this time
+------------------------------------

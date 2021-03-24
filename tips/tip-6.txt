@@ -1,0 +1,18 @@
+********** Tip of the day **********
+------------------------------------
+********** File globbing ***********
+------------------------------------
+
+Wild characters as well as use of square brackets help to filter and match patterns. The wild characters are:
+* = meaning any
+? = exactly one character
+User of square brackets help to choose one of the possible options (characters) included inside the bracket. 
+Examples of using file globbing:
+ls *.txt will list all the files that has an extension of .txt
+ls file*.txt will list all the files that has a word file followed by anything and have the extension of .txt
+ls ticket.??? Will list all the files that has extensions consisting of any three character.
+ls file[1234567890].tmp will list any file that has one number (0 to 9) after the word file and has the extension .tmp.
+Regular expression can also be used with file globbing.
+
+This much for this time
+------------------------------------

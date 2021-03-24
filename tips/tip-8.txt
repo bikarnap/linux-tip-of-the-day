@@ -1,0 +1,15 @@
+********** Tip of the day **********
+------------------------------------
+*********** grep command ***********
+------------------------------------
+
+grep (egrep, fgrep, rgrep) searches for patterns in one or more files (or inputs). When specifying more than one pattern, each pattern is separated using a newline character, and grep utility prints each line that matches a pattern. Typically, patterns are delimited with quotation marks when grep is used as a shell command. grep offers several options, some of which are as follows:
+-i (or --ignore-case): when searching for patterns, grep ignores case matching
+-v (or –invert-match): inverts the pattern matches, i.e., when this option is used, grep outputs everything that do not match the given pattern
+-e PATTERNS (or –regexp=PATTERNS): This option can be used to protect a pattern beginning with “-“
+Examples of grep:
+ls -l | grep ‘.*_.*’ will list all the items that has an underscore.
+cat linux.txt | grep -I ‘linux’ will output all the lines in the file linux.txt that has ‘linux’ word (ignoring case)
+
+This much for this time
+------------------------------------

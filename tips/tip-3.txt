@@ -1,0 +1,16 @@
+********** Tip of the day **********
+------------------------------------
+******** Pipe metacharacter ********
+------------------------------------
+
+The pipe metacharacter (|) can be used to send output of one command as the input of another command. This way, the intermediate results need not be displayed or saved to a file. Only the result will be displayed on the screen or saved to a file. It is a very handy tool that can help to provide a list of consecutive commands in a compact form. 
+For examples:
+1.	To find out the number of files that is listed with ls -la command, the following command can be issued:
+ls -la | wc -l
+Here the commands ls and wc are used. The output of ls -la is passed to wc as input.
+2.	To read a file and output the lines consisting of the word “linux”, the following command can be issued:
+cat somefile.txt | egrep “linux” 
+Here the commands are cat and egrep. cat is the command used to catenate files and display result (but when only one file is given as input, there is nothing to catenate) and egrep is used for filtering the result based on the given pattern, letter, words, etc. The above command thus reads the contents of the file – somefile.txt and send its output to the egrep command. The egrep command filters all the lines of the file containing the word linux and display in the monitor.
+
+This much for this time
+------------------------------------

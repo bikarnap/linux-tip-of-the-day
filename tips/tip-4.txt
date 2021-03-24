@@ -1,0 +1,18 @@
+********** Tip of the day **********
+------------------------------------
+************ cp command ************
+------------------------------------
+
+cp command is a basic shell command that is used to copy file(s) from one location to another. The basic syntax for the cp command is 
+cp SOURCE DESTINATION
+The SOURCE is the file (directory) location, the contents of which need to be copied and the DESTINATION is the file (directory) location where the contents need to be copied.
+For example: To copy a file $HOME/orange.tmp to a location $HOME/tmp/, the following command can be issued on the terminal (command-line) window:
+cp $HOME/orange.tmp $HOME/tmp/
+Different options can be used to copy the files and/or directories. Some of the important ones are:
+-v : cp command when used with this option, it will explain what is being done; long form: --verbose
+-u : cp command when used with this option will copy only when the SOURCE file is newer than the destination file or when the destination file is missing. -u (update); long form: --update
+-p : -p option is same as --preserve=mode, ownership, timestamps; --preserve preserves the specified attributes, and the default attributes are the ones that the -p option is equivalent to
+-r : cp command when used with this option will copy directories recursively. -r (recursive); long form: --recursive; also -R can be used
+
+This much for this time
+------------------------------------

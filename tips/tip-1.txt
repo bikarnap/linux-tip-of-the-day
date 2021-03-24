@@ -1,0 +1,18 @@
+********** Tip of the day **********
+------------------------------------
+************ Vim editor ************
+------------------------------------
+Vim is a command-line text editor that can be used to edit all kinds of plain text. It is also known as a programmer’s text editor as it provides features that are helpful while writing software codes. It is a successor text editor of Vi (i.e., vim = Vi Improved).
+
+To start editing a plain text file, the command vim filename (e.g., orange.txt) can be issued on the command prompt. If the file already exists, the editor opens the contents of that file, which can be edited otherwise it will create a new empty file with the given filename. However, a general form to start vim is vim [options][filelist]
+
+Vim is a modal text editor, meaning depending upon the current mode, only the actions defined for that mode can be performed. The modes are Normal mode (command mode) and insert mode (edit mode). Pressing the <Esc> key will activate the Normal mode. For insert mode key <i>, <a>, or <A> can be pressed. Meaning of some keys when pressed in Normal mode are:
+<i> = insert text before the current cursor position
+<a> = insert text after the current cursor position
+<A> = insert text at the end of line
+<0> = go to the beginning of line
+<$> = go to the end of line
+To quit, press ‘:’ followed by q and press <Enter> in the Normal mode. Similarly, to save and quit press ‘:’ followed by wq and press <Enter> in the Normal mode.
+
+This much for this time
+------------------------------------
