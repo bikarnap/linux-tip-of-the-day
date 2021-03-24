@@ -16,13 +16,13 @@ When a new Bash shell is launched, it will show texts related to a topic of Linu
 ![Tip at launch](./screenshots/tip_at_launch.PNG "Tip at launch")
 
 ### User enters yes to view another tip
-![View another tip? yes](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/blob/master/screenshots/tip_next_yes.PNG "View another tip? yes")
+![View another tip? yes](./screenshots/tip_next_yes.PNG "View another tip? yes")
 
 ### Another tip is shown
-![New tip](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/blob/master/screenshots/tip_next.PNG "New tip")
+![New tip](./screenshots/tip_next.PNG "New tip")
 
 ### User enters no to end the tips
-![View another tip? no](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/blob/master/screenshots/tip_next_no.PNG "View another tip? no")
+![View another tip? no](./screenshots/tip_next_no.PNG "View another tip? no")
 
 ### Bash prompt is shown finally
-![Bash prompt](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/blob/master/screenshots/tip_end.PNG "Bash prompt")
+![Bash prompt](./screenshots/tip_end.PNG "Bash prompt")
