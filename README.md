@@ -13,7 +13,7 @@ _Alternatively you can dowload the whole repository as a .zip file and extract i
 ## Demonstration
 When a new Bash shell is launched, it will show texts related to a topic of Linux as the tip of the day. At the end, it will ask if the user wants to view another tip of the day. The user can enter yes to view another tip or no to go the the bash prompt. The following snapshots are examples:
 ### At the first launch of Bash shell
-![Tip-at-launch](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/tree/master/screenshots/tip_at_launch.png)
+![Tip-at-launch](/screenshots/tip_at_launch.png)
 
 ### User enters yes to view another tip
 ![View another tip? yes](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/tree/master/screenshots/tip_next_yes.png "View another tip? yes")
