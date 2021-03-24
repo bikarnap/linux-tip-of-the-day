@@ -16,7 +16,7 @@ When a new Bash shell is launched, it will show texts related to a topic of Linu
 ![Tip-at-launch](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/tree/master/screenshots/tip_at_launch.png)
 
 * User enters yes to view another tip
-![View another tip? yes](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/tree/master/screenshots/tip_next_yes.png)
+![View another tip? yes](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/tree/master/screenshots/tip_next_yes.png "View another tip? yes")
 
 * Another tip is shown
 ![New tip](https://gitlab.tamk.cloud/servtec-services-2021/linux-tip-of-the-day-v1/-/tree/master/screenshots/tip_next.png)
