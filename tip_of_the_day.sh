@@ -25,7 +25,7 @@ do
     # Display the tip of the day
     clear
     echo -e  "\n===================================="
-    cat $(pwd)/tipoftheday/tips/$TIP_FILE
+    cat .)/tipoftheday/tips/$TIP_FILE
 
     # Increment the tip number by 1
     CURTIP=$((CURTIP+1))
